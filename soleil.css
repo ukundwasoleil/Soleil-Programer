@@ -19,7 +19,7 @@ body {
 
 }
 .soleil3{
-    width: 59%;
+    width: 50%;
     height: 500px;
     background: rgb(223, 141, 179);
     box-shadow: 0px 0px 10px blue;
@@ -30,21 +30,27 @@ body {
     margin-top: 10px;
     font-size: 30px;
     font-style: italic;
+    border: #f8b6c0;
+    gap: 10%;
+    margin-left: 550px;
+    border-radius: 50px;
+    
 
 }
 .soleil2 img{
    
-    width: 59%;
+    width: 45%;
     height: 500px;
-    box-shadow: 0px 0px 10px rgb(10, 10, 11);
+    box-shadow: 0px 0px 10px rgb(213, 9, 190);
     justify-content: center;
     align-items: center;
     transform: all 4s linear;
     padding: 0x;
     margin-top: 30px;
-    margin-bottom: 50px auto;
-    margin-right: 50px;
-    margin-left: 250px;
+    border-radius: 60px;
+    
+    
+    
 
 }
 
@@ -73,6 +79,10 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+@media only screen and (max-width: 768px){
+    .sidebar{
+        background-color: rgb(206, 233, 108);
+    }
 
 section {
     padding: 50px 0;
@@ -89,3 +99,30 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+}
+.nav{
+    background-color: aquamarine;
+    border-radius: 0px 0px 10px;
+    box-shadow: 10px;
+}
+footer {
+    background-color: #f8b6c0;;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .desc {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .desc span {
+    color: #333;
+  }
+  
+  copyright {
+    font-size: 14px;
+    color: #777;
+  }
